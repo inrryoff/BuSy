@@ -8,14 +8,12 @@ BuSy é um modulo Magisk que visa implementar os comandos do Linux no Android de
 ## compatibilidade
 o BuSy trm compatibilidade com diferentes arquiteturas
 
-| **Archs**  | **Tipo arquivo**
-|------------|-----------------|
-|arm64-v8a   | amr64
-|armeabi-v7a | arm
-|armeabi     | arm
-|armv7l      | arm
-|x86_64      | x86_64
-|x86         | x86
+| **Archs** | **Tipo de Arquivo** |
+| :--- | :--- |
+| arm64-v8a | arm64 |
+| armeabi-v7a / armv7l | arm |
+| x86_64 | x86_64 |
+| x86 | x86 |
 
 ## BuSy também
 Busy conta com 3 niveis de instalação sendo Full, Medium, Small

@@ -11,7 +11,7 @@ o BuSy trm compatibilidade com diferentes arquiteturas
 | **Archs** | **Tipo de Arquivo** |
 | :--- | :--- |
 | arm64-v8a | arm64 |
-| armeabi-v7a / armv7l | arm |
+| armeabi / armeabi-v7a / armv7l | arm |
 | x86_64 | x86_64 |
 | x86 | x86 |
 

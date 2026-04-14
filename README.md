@@ -46,4 +46,4 @@ Busy conta com 3 niveis de instalação sendo Full, Medium, Small
   - Criador Original: **Erik Andersen**
   - Mantenedor Atual: **Denys Vlasenko**
   - Site Oficial: [busybox.net](https://busybox.net)
-  - Fonte do Binário: [meefik/busybox](https://github.com)
+  - Fonte do Binário: [meefik/busybox](https://github.com/meefik/busybox)

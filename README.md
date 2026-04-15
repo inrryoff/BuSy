@@ -7,6 +7,19 @@ BuSy traz comandos Linux para o Android de forma segura usando Magisk (systemles
 evitando modificações diretas no sistema e reduzindo riscos de bootloop.
 
 ---
+# ⚠️ Aviso
+
+Este módulo é voltado para usuários avançados.
+
+É necessário conhecimento básico de:
+
+- Magisk
+- Android (systemless / root)
+- comandos Linux
+
+O uso incorreto pode causar instabilidade no sistema.
+
+---
 
 ## compatibilidade
 Suporte para diferentes arquiteturas:
@@ -43,11 +56,16 @@ BuSy conta com 3 níveis de instalação sendo **Full**, **Medium**, **Small**
 
 ## 🚀 Instalação
 
-1. Baixe o módulo
+1. Baixe o arquivo ".zip" do módulo
 2. Abra o Magisk
-3. Vá em "Módulos"
-4. Instale o arquivo .zip
-5. Reinicie o dispositivo
+3. Vá em Módulos
+4. Toque em Instalar pelo armazenamento
+5. Selecione o arquivo do BuSy
+6. Durante a instalação:
+   - 🔼 Volume Up → Full
+   - 🔽 Volume Down → Small
+   - ⏱️ Aguardar → Medium (padrão)
+7. Reinicie o dispositivo
 
 ---
 

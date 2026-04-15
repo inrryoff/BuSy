@@ -3,12 +3,13 @@
 [![Device](https://img.shields.io/badge/Device-Moto_G24-orange.svg)](https://motorola.com)
 
 # 👨🏻‍💻 BuSy
-BuSy é um modulo Magisk que visa implementar os comandos do Linux no Android de forma segura pelo Magisk com seu sistema de montagem Systemless
+BuSy traz comandos Linux para o Android de forma segura usando Magisk (systemless),
+evitando modificações diretas no sistema e reduzindo riscos de bootloop.
 
 ---
 
 ## compatibilidade
-o BuSy tem compatibilidade com diferentes arquiteturas
+Suporte para diferentes arquiteturas:
 
 | **Archs** | **Tipo de Arquivo** |
 | :--- | :--- |
@@ -20,7 +21,7 @@ o BuSy tem compatibilidade com diferentes arquiteturas
 ---
 
 ## BuSy também
-BuSy conta com 3 niveis de instalação sendo Full, Medium, Small
+BuSy conta com 3 níveis de instalação sendo **Full**, **Medium**, **Small**
 
 ---
 
@@ -37,6 +38,16 @@ BuSy conta com 3 niveis de instalação sendo Full, Medium, Small
 2. Medium -só o Essencial
 `ash chrt taskset renice ionice vi nano cat less more head tail cp mv rm mkdir rmdir touch ln ls find grep sed awk wc sort uniq cut tr df du free kill mount umount ping wget curl tar gzip gunzip zip unzip date sleep which whoami id export unset`
 3. Small -foca mais para um complemento ao meu modulo [GameHub-PRO-X](https://github.com/inrryoff/GameHub-PRO-X.V3) adicionando apenas estes 5 comandos: `ash taskset chrt renice ionice`
+
+---
+
+## 🚀 Instalação
+
+1. Baixe o módulo
+2. Abra o Magisk
+3. Vá em "Módulos"
+4. Instale o arquivo .zip
+5. Reinicie o dispositivo
 
 ---
 

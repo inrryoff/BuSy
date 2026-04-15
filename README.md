@@ -20,7 +20,7 @@ o BuSy tem compatibilidade com diferentes arquiteturas
 ---
 
 ## BuSy também
-Busy conta com 3 niveis de instalação sendo Full, Medium, Small
+BuSy conta com 3 niveis de instalação sendo Full, Medium, Small
 
 ---
 

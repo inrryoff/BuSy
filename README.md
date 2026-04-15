@@ -34,9 +34,9 @@ BuSy conta com 3 niveis de instalação sendo Full, Medium, Small
 
 1. Full -todos os comandos disponíveis no busybox menos aqueles que causam crash do sistema 
 `su sh init adb surfaceflinger logcat logger chcon getcon setenforce getenforce getprop setprop load_policy insmod rmmod lsmod kill logd start stop am pm monkey wm reboot poweroff swapon swapoff service toolbox toybox cmd dumpsys killall uptime watch ps top free resetprop powertop`
-2. Medium só o Essencial
-`ash chrt taskset renice ionice vi nano cat less more head tail cp mv rm mkdir rmdir touch ln ls find grep sed awk wc sort uniq cut tr df du free ps kill mount umount ping wget curl tar gzip gunzip zip unzip date sleep which whoami id env export unset`
-3. Small foca mais para um complemento ao meu modulo [GameHub-PRO-X](https://github.com/inrryoff/GameHub-PRO-X.V3) adicionando apenas estes 5 comandos: `ash taskset chrt renice ionice`
+2. Medium -só o Essencial
+`ash chrt taskset renice ionice vi nano cat less more head tail cp mv rm mkdir rmdir touch ln ls find grep sed awk wc sort uniq cut tr df du free kill mount umount ping wget curl tar gzip gunzip zip unzip date sleep which whoami id export unset`
+3. Small -foca mais para um complemento ao meu modulo [GameHub-PRO-X](https://github.com/inrryoff/GameHub-PRO-X.V3) adicionando apenas estes 5 comandos: `ash taskset chrt renice ionice`
 
 ---
 

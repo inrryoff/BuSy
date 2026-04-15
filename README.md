@@ -7,7 +7,7 @@ BuSy traz comandos Linux para o Android de forma segura usando Magisk (systemles
 evitando modificações diretas no sistema e reduzindo riscos de bootloop.
 
 ---
-# ⚠️ Aviso
+## ⚠️ Aviso
 
 Este módulo é voltado para usuários avançados.
 
@@ -18,6 +18,12 @@ Este módulo é voltado para usuários avançados.
 - comandos Linux
 
 O uso incorreto pode causar instabilidade no sistema.
+
+---
+
+## 📦 Estrutura
+
+O módulo utiliza montagem systemless via Magisk para injetar os binários no sistema sem modificar partições reais.
 
 ---
 
@@ -46,12 +52,41 @@ BuSy conta com 3 níveis de instalação sendo **Full**, **Medium**, **Small**
 
 ---
 
-1. Full - todos os comandos disponíveis no busybox menos aqueles que causam crash do sistema 
-`su sh init adb surfaceflinger logcat logger chcon getcon setenforce getenforce getprop setprop load_policy insmod rmmod lsmod kill logd start stop am pm monkey wm reboot poweroff swapon swapoff service toolbox toybox cmd dumpsys killall uptime watch ps top free resetprop powertop`
-2. Medium - só o Essencial
-`ash chrt taskset renice ionice vi nano cat less more head tail cp mv rm mkdir rmdir touch ln ls find grep sed awk wc sort uniq cut tr df du free kill mount umount ping wget curl tar gzip gunzip zip unzip date sleep which whoami id export unset`
-3. Small - foca mais para um complemento ao meu modulo [GameHub-PRO-X](https://github.com/inrryoff/GameHub-PRO-X.V3) adicionando apenas estes 5 comandos: `ash taskset chrt renice ionice`
+### Full
+Todos os comandos disponíveis (exceto os que causam conflito)
 
+```md
+    REMOVER="
+        su sh init adb surfaceflinger logcat
+        logger chcon getcon setenforce
+        getenforce getprop setpropload_policy
+        insmod rmmod lsmod kill logd start
+        stop am pm monkey wm reboot poweroff
+        swapon swapoff service toolbox toybox
+        cmd dumpsys killall uptime watch df ps
+        top tar free resetprop powertop
+    "
+```
+
+### Medium
+Apenas comandos essenciais do **busybox**
+
+```md
+    CMDS="
+        ash chrt taskset renice ionice vi nano
+        cat less more head tail cp mv rm mkdir
+        rmdir touch ln ls find grep sed awk wc
+        sort uniq cut tr df du free kill mount
+        umount ping wget curl tar gzip gunzip
+        zip unzip date sleep which whoami id
+        export unset
+    "
+```
+### Small
+Focado como complemento para o módulo [GameHub-PRO-X](https://github.com/inrryoff/GameHub-PRO-X.V3) adicionando apenas estes 5 comandos:
+```md
+ash taskset chrt renice ionice
+```
 ---
 
 ## 🚀 Instalação
@@ -69,10 +104,13 @@ BuSy conta com 3 níveis de instalação sendo **Full**, **Medium**, **Small**
 
 ---
 
-## Créditos e Licença
-- **Scripts do Módulo:** Licença MIT © [inrryoff/BuSy](https://github.com/inrryoff)
-- **Binário BusyBox:** Licença GNU GPLv2
-  - Criador Original: **Erik Andersen**
-  - Mantenedor Atual: **Denys Vlasenko**
-  - Site Oficial: [busybox.net](https://busybox.net)
-  - Fonte do Binário: [meefik/busybox](https://github.com/meefik/busybox)
+## 📄 Licença
+
+- Scripts: MIT  
+- BusyBox: GPLv2  
+
+## 🙏 Créditos
+- Criador Original: **Erik Andersen**
+- Mantenedor Atual: **Denys Vlasenko**
+- Fonte do Binário: [meefik/busybox](https://github.com/meefik/busybox)
+- Site Oficial: [busybox.net](https://busybox.net)

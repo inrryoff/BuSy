@@ -90,19 +90,20 @@ ash taskset chrt renice ionice
 ---
 
 ## 🚀 instalação
-1. Baixe o arquivo ".zip" do módulo
-2. Abra o Magisk
+1. Baixe o arquivo ".zip" do módulo.
+2. Abra o [Magisk](https://github.com/topjohnwu/magisk/releases)
 3. Vá na aba de módulos 
 4. Toque em Instalar pelo armazenamento
 5. Selecione o arquivo do BuSy
 
-## 🆕 Guia de Instalação da versão 3.0
+## 🆕 Guia de Instalação da versão 3+
 **🎮 Controles:**
   - **Volume + :** Alternar entre Full, Medium ou Small
   - **Volume - :** Confirmar escolha
 
 **🛠️ Botão Action:**
   - Logs detalhados e acesso rápido ao GitHub pós-instalação.
+6. Reinicie o dispositivo.
 
 ---
 
